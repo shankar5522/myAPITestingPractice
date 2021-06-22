@@ -32,4 +32,35 @@ public class Payload {
 				"}";
 	}
 	
+	/*
+	 * when we do not have actual Json response or API is still in under
+	 * development. so in that case, Mock Data/ Dummy Data is used.
+	 */
+	public static String mockJsonCourseDetailsResponse()
+	{
+		return "{\r\n" + 
+				"  \"dashboard\": {\r\n" + 
+				"    \"purchaseAmount\": 910,\r\n" + 
+				"    \"website\": \"rahulshettyacademy.com\"\r\n" + 
+				"  },\r\n" + 
+				"  \"courses\": [\r\n" + 
+				"    {\r\n" + 
+				"      \"title\": \"Selenium Python\",\r\n" + 
+				"      \"price\": 50,\r\n" + 
+				"      \"copies\": 6\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"      \"title\": \"Cypress\",\r\n" + 
+				"      \"price\": 40,\r\n" + 
+				"      \"copies\": 4\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"      \"title\": \"RPA\",\r\n" + 
+				"      \"price\": 45,\r\n" + 
+				"      \"copies\": 10\r\n" + 
+				"    }\r\n" + 
+				"  ]\r\n" + 
+				"}";
+	}
+	
 }
