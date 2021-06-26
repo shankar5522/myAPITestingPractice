@@ -1,4 +1,4 @@
-package f_pojoconcept;
+package f_Deserialization;
 
 // the setter method is used for Serialization and
 // getter method is ued for De-serialziation.

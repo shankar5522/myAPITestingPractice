@@ -1,4 +1,4 @@
-package f_pojoconcept;
+package f_Deserialization;
 
 public class B1_WebAutomationGetCoursePOJOClass {
 	

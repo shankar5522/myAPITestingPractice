@@ -1,4 +1,4 @@
-package f_pojoconcept;
+package f_Deserialization;
 
 import io.restassured.RestAssured;
 import io.restassured.parsing.Parser;

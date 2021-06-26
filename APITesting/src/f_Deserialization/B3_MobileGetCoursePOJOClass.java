@@ -1,6 +1,6 @@
-package f_pojoconcept;
+package f_Deserialization;
 
-public class B2_APIGetCoursePOJOClass {
+public class B3_MobileGetCoursePOJOClass {
 	
 	private String courseTitle;
 	private String price;
@@ -17,5 +17,5 @@ public class B2_APIGetCoursePOJOClass {
 	}
 	public void setPrice(String price) {
 		this.price = price;
-	}	
+	}
 }
