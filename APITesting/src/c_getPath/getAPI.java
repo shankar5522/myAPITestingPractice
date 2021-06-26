@@ -1,4 +1,4 @@
-package getPath;
+package c_getPath;
 
 import io.restassured.RestAssured;
 import static io.restassured.RestAssured.*;		//add package manually for given, when & then

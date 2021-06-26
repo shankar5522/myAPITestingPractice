@@ -1,7 +1,7 @@
-package addPath;
+package a_addPath;
 
+import d_resource.Payload;
 import io.restassured.path.json.JsonPath;
-import resource.Payload;
 
 public class ComplexJsonParser6 {
 

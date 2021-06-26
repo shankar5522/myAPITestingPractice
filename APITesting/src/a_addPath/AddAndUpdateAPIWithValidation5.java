@@ -1,13 +1,14 @@
-package addPath;
+package a_addPath;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import resource.Payload;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import org.testng.Assert;
+
+import d_resource.Payload;
 
 //here we are adding and updating the same API for the address details.
 public class AddAndUpdateAPIWithValidation5 {

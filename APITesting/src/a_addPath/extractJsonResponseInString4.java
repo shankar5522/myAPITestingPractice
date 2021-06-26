@@ -1,11 +1,12 @@
-package addPath;
+package a_addPath;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import resource.Payload;
 
 import static io.restassured.RestAssured.*;		//add package manually for given, when & then
 import static org.hamcrest.Matchers.*;			//add package manually for equalTo method comparision.
+
+import d_resource.Payload;
 
 //Just adding/ creating a new request with some response level validation 
 public class extractJsonResponseInString4 {

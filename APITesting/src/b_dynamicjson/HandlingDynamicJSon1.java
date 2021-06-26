@@ -1,11 +1,11 @@
-package dynamicjson;
+package b_dynamicjson;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import d_resource.Payload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import resource.Payload;
 
 import static io.restassured.RestAssured.*;
 

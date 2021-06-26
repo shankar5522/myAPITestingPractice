@@ -1,4 +1,4 @@
-package resource;
+package d_resource;
 
 public class Payload {
 

@@ -1,4 +1,4 @@
-package dynamicjson;
+package b_dynamicjson;
 
 import static io.restassured.RestAssured.given;
 
